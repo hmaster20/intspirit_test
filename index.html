@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Challenge</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style type="text/css">
+        @import url("style.css");
+    </style>
+</head>
+<body>
+    <h1>JavaScript Assessment</h1>
+
+    <hr><hr>
+    <!-- Challenge #1 START -->
+    <div class="block2">
+        <fieldset>
+            <legend>Challenge #1</legend>
+            <div class="block3">
+                <form method="POST" id="AJAXform" action="javascript:void(null);" onsubmit="callRequest()">
+                    <label>Request field:</label>
+                    <input id="RequestFieldID" name="PostText" value="" type="text">
+                    <input id="ButtonID" value="submit" type="submit">
+                </form>
+            </div>
+            <div id="infR"></div>
+            <div id="infE"></div>
+        </fieldset>
+    </div>
+    <!-- Challenge #1 FINISH -->
+    <hr><hr>
+    <!-- Challenge #2 START -->
+    <div class="block2">
+        <fieldset>
+            <legend>Challenge #2</legend>
+            <div class="block3">
+                <div id="DivButton" class="DivButtonClass">
+                    <button type="button" onclick="loadDoc()">Receive the response</button>
+                </div>
+                <p></p>
+                <div class="blockC2L">Percentage of errors:</div>
+                <div id="PercentID" class="blockC2R"></div>
+                <div class="blockC2L">Count of successes:</div>
+                <div id="CountSuccessID" class="blockC2R"></div>
+                <div class="blockC2L">Count of failures:</div>
+                <div id="CountFailureID" class="blockC2R"></div>
+                <div class="blockC2L">Failures since the last success:</div>
+                <div id="LastErrorID" class="blockC2R"></div>
+            </div>
+        </fieldset>
+    </div>
+    <!-- Challenge #2 FINISH -->
+    <hr><hr>
+    <!-- Challenge #3 START -->
+    <div class="block2">
+        <fieldset>
+            <legend>Challenge #3</legend>
+            <div class="block3">
+                <div class="blockC3L"><button type="button" onclick="loadData()">Fetch data</button></div>
+                <div class="blockC3R"><button type="button" onclick="DeleteDivFetch()">Reset</button></div>
+            </div>
+            <div id="FetchID"></div>
+        </fieldset>
+    </div>
+    <!-- Challenge #3 FINISH -->
+
+    <script src="scriptC1.js" type="text/javascript" defer></script>
+    <script src="scriptC2.js" type="text/javascript" defer></script>
+    <script src="scriptC3.js" type="text/javascript" defer></script>
+
+</body>
+</html>

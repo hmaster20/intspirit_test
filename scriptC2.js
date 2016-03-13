@@ -9,11 +9,6 @@ var LastError = 0;
 var RSPresult;
 var RSPtext;
 
-
-
-
-
-
 function loadDoc() {
     //document.getElementById("DivButton").style.border = "thick solid #0000FF";
     ////////document.getElementById("DivButton").style.borderColor = "red purple";

@@ -27,16 +27,28 @@
     width: 90%;
 }
 
-.blockL {
+.blockC2L {
     float: left;
      width:60%; 
      text-align: right;
 }
-.blockR {
+.blockC2R {
     float: right; 
     width:39% ; 
     text-align: left;
 }
+
+.blockC3L {
+    float: left;
+     width:50%; 
+     text-align: right;
+}
+.blockC3R {
+    float: right; 
+    width:45% ; 
+    text-align: left;
+}
+
 
 input[type=text]:focus, textarea:focus {
     box-shadow: 0 0 2px rgba(81, 203, 238, 1);
